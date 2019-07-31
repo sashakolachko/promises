@@ -19,9 +19,9 @@ let perimeterNew = (a, b) => {
       reject("No parameters");
     }
     if (b == undefined) {
-      return resolve(squarePerimeter(a));
+      resolve(squarePerimeter(a));
     }
-    return resolve(rectanglePerimeter(a, b));
+    resolve(rectanglePerimeter(a, b));
   });
 }
 
